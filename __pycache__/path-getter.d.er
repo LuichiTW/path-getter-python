@@ -1,0 +1,24 @@
+##[pylyzer] failed /home/luichi/Documentos/gitRepos/path-getter-python/path-getter.py 1731541873 994
+.pathlib = pyimport "<failure>"
+.<failure> = pyimport "<failure>"
+
+.os = pyimport "<failure>"
+
+
+.platform = pyimport "<failure>"
+
+
+.sys = pyimport "<failure>"
+
+
+.___v_desugar_1 = pyimport "<failure>"
+
+.Path: Never
+.Path_getter: ClassType
+.Path_getter.__call__: () -> path-getter.Path_getter
+.Path_getter.get_path_directory: (self: Never, carpeta: Str) -> Never
+.Path_getter.get_path_archive: |R <: Str|(self: Never, carpeta: R, archive: R) -> Never
+
+path-getter = pyimport "path-getter"
+.pathObtenido: .Path_getter
+
